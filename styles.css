@@ -1,0 +1,226 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9faf8;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header styles */
+header {
+  background-color: #1f2937;
+  padding: 10px 0;
+  color: #f9faf8;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Hero section styles */
+.hero {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 50px 0;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #3882f6;
+  color: white;
+  padding: 5px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.placeholder-image {
+  background-color: #7f8c8d;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+
+/* Info section styles */
+.info {
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.info h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 40px;
+}
+
+.info-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.info-item {
+  text-align: center;
+  width: 200px;
+}
+
+.placeholder-illustration {
+  background-color: #e5e7eb;
+  border: 2px solid #3882f6;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* Quote section styles */
+.quote {
+  background-color: #e5e7eb;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.quote blockquote {
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 300;
+  color: #1f2937;
+  margin: 0 auto;
+  max-width: 800px;
+  position: relative;
+}
+
+.quote cite {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: right;
+  font-size: 18px;
+}
+
+/* CTA section styles */
+.cta-wrapper {
+  padding: 20px 0;
+  background-color: #f9faf8;
+}
+
+.cta {
+  background-color: #3882f6;
+  padding: 30px 0;
+  text-align: left;
+  border-radius: 10px;
+  max-width: 75%;
+  margin: 80px auto; /* Center the CTA section */
+}
+
+.cta .container {
+  max-width: 100%; /* Ensure container width fits within the CTA */
+}
+
+.cta .cta-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.cta .cta-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.cta h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.cta p {
+  font-size: 18px;
+}
+
+.cta .cta-button {
+  color: white;
+  padding: 5px 30px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
